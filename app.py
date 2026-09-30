@@ -37,7 +37,7 @@ if st.button("Analyze & Get Guidance", type="primary"):
     else:
         try:
             genai.configure(api_key=api_key)
-            model = genai.GenerativeModel("gemini-2.5-flash")
+            model = genai.GenerativeModel("gemini-3.8-flash")
 
             system_prompt = f"""
             You are HealthPulse, an empathetic, certified first-line healthcare triage assistant.
